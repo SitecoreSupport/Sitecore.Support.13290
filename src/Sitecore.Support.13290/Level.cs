@@ -2,7 +2,7 @@
 using Sitecore.ContentSearch;
 using Sitecore.Data.Items;
 
-namespace Sitecore.XA.Foundation.Search.ComputedFields
+namespace Sitecore.Support.XA.Foundation.Search.ComputedFields
 {
     public class Level : AbstractComputedIndexField
     {
@@ -12,7 +12,7 @@ namespace Sitecore.XA.Foundation.Search.ComputedFields
 
             if (item?.Parent == null)
             {
-                return false;
+                return 0;
             }
 
             return item.Axes.Level;
