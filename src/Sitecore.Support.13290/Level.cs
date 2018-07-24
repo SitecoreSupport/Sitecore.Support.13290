@@ -12,7 +12,7 @@ namespace Sitecore.Support.XA.Foundation.Search.ComputedFields
 
       if (item?.Parent == null)
       {
-        return false;
+        return 0;
       }
 
       return item.Axes.Level;
