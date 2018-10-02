@@ -50,8 +50,8 @@
       <HintPath>..\packages\SC.Sitecore.Kernel.9.0.2\lib\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.XA.Foundation.Common">
-      <HintPath>..\packages\SXA90.Sitecore.XA.Foundation.Common.1.7.1\lib\Sitecore.XA.Foundation.Common.dll</HintPath>
+    <Reference Include="Sitecore.XA.Foundation.Search">
+      <HintPath>..\..\lib\Sitecore.XA.Foundation.Search.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -61,7 +61,7 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Level.cs" />
+    <Compile Include="Commerce\XA\Foundation\CommerceEngine\ComputedFields\LevelComputedFieldPatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
